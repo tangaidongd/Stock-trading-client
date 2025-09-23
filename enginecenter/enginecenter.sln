@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "enginecenter", "enginecenter.vcproj", "{1AA46633-8BF6-41AB-9BF6-D6EFD533E787}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AA46633-8BF6-41AB-9BF6-D6EFD533E787}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1AA46633-8BF6-41AB-9BF6-D6EFD533E787}.Debug|Win32.Build.0 = Debug|Win32
+		{1AA46633-8BF6-41AB-9BF6-D6EFD533E787}.Release|Win32.ActiveCfg = Release|Win32
+		{1AA46633-8BF6-41AB-9BF6-D6EFD533E787}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
