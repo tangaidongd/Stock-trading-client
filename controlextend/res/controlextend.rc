@@ -1,0 +1,172 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""..\\res\\controlextend.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,1,0,2
+ PRODUCTVERSION 2,1,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "2.1.0"
+            VALUE "InternalName", "controlextend.dll"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "controlextend.dll"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "2.1.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDR_PNG_MENU_FOLD_COLOR PNG                     "..\\res\\收缩菜单.png"
+IDR_PNG_MENU_EXPAND_COLOR PNG                     "..\\res\\展开菜单.png"
+IDR_PNG_MENU_FOLD_BLACK PNG                     "..\\res\\收缩菜单_黑白.png"
+IDR_PNG_MENU_EXPAND_BLACK PNG                     "..\\res\\展开菜单_黑白.png"
+IDR_PNG_DLG_BTN         PNG                     "..\\res\\dlgbutton.png"
+IDR_PNG_DIALOG_CAPTION_BIG PNG                     "..\\res\\dialogcaptionbig.png"
+IDR_PNG_DIALOG_CAPTION_SMALL PNG                     "..\\res\\dialogcaptionsmall.png"
+IDR_PNG_SPIN_ADD        PNG                     "..\\res\\SpinAdd.png"
+IDR_PNG_SPIN_SUB        PNG                     "..\\res\\SpinSub.png"
+IDR_PNG_MERCH           PNG                     "..\\res\\merch.png"
+IDR_PNG_BLOCK           PNG                     "..\\res\\block.png"
+IDR_PNG_INDEX           PNG                     "..\\res\\index.png"
+IDR_PNG_SHORT_CUT       PNG                     "..\\res\\shortcut.png"
+IDR_PNG_WSP             PNG                     "..\\res\\wsp.png"
+IDR_PNG_CFM             PNG                     "..\\res\\cfm.png"
+IDR_PNG_VMG             PNG                     "..\\res\\vmg.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_ARROW        BITMAP                  "..\\res\\arrow.bmp"
+IDB_HORIZONTAL_SCROLLBAR_LEFTARROW BITMAP                  "..\\res\\horizontalscrollbarleftarrow.bmp"
+IDB_HORIZONTAL_SCROLLBAR_RIGHTARROW BITMAP                  "..\\res\\horizontalscrollbarrightarrow.bmp"
+IDB_HORIZONTAL_SCROLLBAR_CHANNEL BITMAP                  "..\\res\\horizontalscrollbarchannel.bmp"
+IDB_HORIZONTAL_SCROLLBAR_THUMB BITMAP                  "..\\res\\horizontalscrollbarthumb.bmp"
+IDB_HORIZONTAL_SCROLLBAR_THUMB_NO_COLOR BITMAP                  "..\\res\\horizontalscrollbarthumbnocolor.bmp"
+IDB_VERTICAL_SCROLLBAR_DOWNARROW BITMAP                  "..\\res\\verticalscrollbardownarrow.bmp"
+IDB_VERTICAL_SCROLLBAR_UPARROW BITMAP                  "..\\res\\verticalscrollbaruparrow.bmp"
+IDB_VERTICAL_SCROLLBAR_CHANNEL BITMAP                  "..\\res\\verticalscrollbarchannel.bmp"
+IDB_VERTICAL_SCROLLBAR_THUMB BITMAP                  "..\\res\\verticalscrollbarthumb.bmp"
+IDB_VERTICAL_SCROLLBAR_THUMB_NO_COLOR BITMAP                  "..\\res\\verticalscrollbarthumbnocolor.bmp"
+IDB_TAB                 BITMAP                  "..\\res\\bmp00001.bmp"
+IDB_GUITAB_NORMAL       BITMAP                  "..\\res\\guitabnormal.bmp"
+IDB_GUITAB_SELECTED     BITMAP                  "..\\res\\guitabselected.bmp"
+IDB_GUI_DOCKBAR         BITMAP                  "..\\res\\bitmap1.bmp"
+IDB_BITMAP_CMTARROW     BITMAP                  "cmtarrow.bmp"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "..\res\controlextend.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
